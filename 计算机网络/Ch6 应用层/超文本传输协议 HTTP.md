@@ -1,0 +1,46 @@
+---
+tags:
+  - computerscience
+aliases:
+  - HTTP
+  - 超文本传输协议
+chapter: Ch6 应用层
+subject: "[[计算机网络]]"
+category: "[[📖Notes]]"
+---
+HTTP 是面向事务的应用层协议。
+
+## HTTP 的操作过程
+
+用户点击一个超链接后发生的事件：
+
+1. 浏览器分析该 URL，以获取协议（HTTP、HTTPS）、主机名、端口号、路径等
+2. 浏览器向 [[域名系统 DNS]]请求解析主机名的 IP 地址
+3. 域名系统解析出 IP 地址
+4. 浏览器与该 IP 地址的服务器建立 [[TCP]] 连接（HTTP 默认端口 80，HTTPS 默认端口 443）
+5. 浏览器发出 HTTP 请求：GET /路径名
+6. 服务器通过 HTTP 响应把路径的文件发送给服务器
+7. 释放 TCP连接
+8. 浏览器解释获得的文件 index.html，并显示 Web 页面
+
+## HTTP 的特点
+
+1. HTTP 是无连接的，因为在传输层建立了 TCP连接，所以 HTTP 方面是没有 HTTP 连接的
+2. HTTP 是无状态的，服务器不会记录客户端访问记录，同一个客户端两次相同参数的 HTTP 访问，得到的 HTTP 响应是相同的。**因为无状态，所以若要跟踪用户活动，就需要使用 Cookies。**
+3. HTTP 既可以使用非持续连接（HTTP/1.0），也可以使用持续连接（HTTP/1.1）
+
+## 请求一个 WWW 文档需要的时间
+
+非持续连接下：
+
+![](https://img.mileomni.com/1731243138704.png)
+
+持续连接下，可以将 HTML 文档和一些 assets 分开传输，可以节省加载时间：
+
+![](https://img.mileomni.com/1731243138770.png)
+
+持续传输下，还可以使用**流水线**，所有的请求和响应都是连续发送，则获取所有 assets 只需要 1 个 RTT，连续发送的量需要收到发送窗口的限制。
+
+## HTTP 的报文结构
+
+**Header 中的 Connection 字段值为 Close 表示非持续连接，keep-alive 表示持续连接**
