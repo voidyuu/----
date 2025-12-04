@@ -1,14 +1,3 @@
----
-aliases:
-  - Cache
-  - 高速缓存
-tags:
-  - computerscience
-chapter: Ch3 存储系统
-subject: "[[计算机组成原理]]"
-category: "[[📖Notes]]"
----
-
 ![](https://img.mileomni.com/1731243149872.png)
 
 ## Cache 和[[主存]]的映射方式

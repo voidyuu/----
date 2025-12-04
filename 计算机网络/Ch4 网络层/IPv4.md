@@ -1,13 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
-
 ## IPv4 分组的格式
 
 ![](https://img.mileomni.com/1731243007757.png)

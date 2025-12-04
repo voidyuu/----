@@ -1,13 +1,3 @@
----
-aliases:
-  - 内存管理单元
-  - MMU
-tags:
-  - computerscience
-chapter: Ch3 内存管理
-subject: "[[操作系统]]"
-category: "[[📖Notes]]"
----
 ![](https://img.mileomni.com/1731242850896.png)
 
 | MMU 的主要功能  | 描述                                                                                                            |

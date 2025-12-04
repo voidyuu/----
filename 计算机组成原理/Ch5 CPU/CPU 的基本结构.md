@@ -1,13 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch5 CPU
-subject: "[[计算机组成原理]]"
-category: "[[📖Notes]]"
-aliases:
----
-
-
 ## 运算器
 
 - 算数逻辑单元 ALU

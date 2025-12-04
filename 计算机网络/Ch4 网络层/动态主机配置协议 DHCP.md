@@ -1,14 +1,3 @@
----
-aliases:
-  - 动态主机配置协议
-  - DHCP
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
-
 DHCP 常用于给主机动态地分配 IP 地址，提供了即插即用地联网机制。**DHCP 是应用层协议，基于 [[UDP]]**。
 
 >使用 [[UDP]] 是因为一开始客户机没有 IP 地址，不可能建立 [[TCP]] 连接。

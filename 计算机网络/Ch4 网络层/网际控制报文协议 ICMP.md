@@ -1,14 +1,3 @@
----
-aliases:
-  - 网际控制报文协议
-  - ICMP
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
-
 ICMP 是**网络层**协议。ICMP 报文有两种，即 ICMP 差错报告报文和 ICMP 询问报文。
 
 ICMP 报文被封装在 IP 数据报中发送

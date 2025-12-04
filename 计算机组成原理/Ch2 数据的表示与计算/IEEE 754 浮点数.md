@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch2 数据的表示与计算
-subject: "[[计算机组成原理]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 ## 浮点数的表示
 
 $N=(-1)^S\times M\times R^E$

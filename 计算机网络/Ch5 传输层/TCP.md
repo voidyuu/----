@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch5 传输层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 ## TCP 的特点
 
 1. 面向连接，TCP 连接是一条逻辑连接

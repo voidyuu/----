@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 ## IPv6 的特点
 
 1. 更大的地址空间，使用 128 位地址

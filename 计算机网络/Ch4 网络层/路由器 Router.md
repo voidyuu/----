@@ -1,13 +1,3 @@
----
-aliases:
-  - Router
-  - 路由器
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
 ## 路由器的功能
 
 路由器是一种具有多个输入/输出接口的专用计算机，其任务是连接不同的网络（异构网络）并完成分组转发。**多个逻辑网络互联时必须使用路由器**。

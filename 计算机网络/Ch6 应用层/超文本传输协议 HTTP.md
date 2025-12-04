@@ -1,13 +1,3 @@
----
-tags:
-  - computerscience
-aliases:
-  - HTTP
-  - 超文本传输协议
-chapter: Ch6 应用层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
 HTTP 是面向事务的应用层协议。
 
 ## HTTP 的操作过程

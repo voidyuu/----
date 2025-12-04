@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch2 进程与线程
-subject: "[[操作系统]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 ## 特性
 
 - [[缓冲区]]是临界区，需要用 mutex 夹起来。

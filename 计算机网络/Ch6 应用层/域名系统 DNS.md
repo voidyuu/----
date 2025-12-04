@@ -1,14 +1,3 @@
----
-tags:
-  - computerscience
-aliases:
-  - DNS
-  - 域名系统
-chapter: Ch6 应用层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
-
 DNS 运行在 [[UDP]] 之上，使用 53 端口。从概念上将 DNS 分成三部分：层次域名空间、域名服务器和解析器。
 
 ## 层次域名空间

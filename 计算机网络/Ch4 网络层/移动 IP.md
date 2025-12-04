@@ -1,13 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
-
 移动 IP 技术是为了实现移动主机在各网络间漫游时，仍能保持**原来的 IP 地址**不变。
 
 移动 IP 的基本工作过程可以分为代理发现、注册、分组路由与注销 4 个阶段。

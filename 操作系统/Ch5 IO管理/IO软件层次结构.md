@@ -1,14 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch5 IO管理
-subject: "[[操作系统]]"
-category: "[[📖Notes]]"
-aliases:
-  - I/O软件层次结构
----
-
-
 ![](https://img.mileomni.com/1731242895432.png)
 
 ## 用户层软件

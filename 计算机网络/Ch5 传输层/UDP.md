@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch5 传输层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 ## UDP 的特点
 
 1. 无需建立连接

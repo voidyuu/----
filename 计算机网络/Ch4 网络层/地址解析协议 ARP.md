@@ -1,14 +1,3 @@
----
-aliases:
-  - 地址解析协议
-  - ARP
-tags:
-  - computerscience
-chapter: Ch4 网络层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
-
 无论网络层使用什么协议，在实际网络的链路上传送数据帧时，最终必须使用硬件地址。每台主机都由一个 **ARP 高速缓存**，用来存放本局域网上各主机和[[路由器 Router]]的 IP 地址到 MAC 地址的映射表，称 ARP 表。使用 ARP 来动态维护 ARP 表。
 
 ARP 请求是广播发送

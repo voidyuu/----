@@ -1,12 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch3 数据链路层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
-aliases:
----
-
 MAC 子层的主要功能是**控制和协调所有站点对共享介质的访问**。
 
 ![](https://img.mileomni.com/1731243049645.png)

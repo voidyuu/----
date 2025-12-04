@@ -1,13 +1,3 @@
----
-tags:
-  - computerscience
-chapter: Ch5 IO管理
-subject: "[[操作系统]]"
-category: "[[📖Notes]]"
-aliases:
-  - I/O控制方式
----
-
 ![](https://img.mileomni.com/1731242890477.png)
 
 ## 程序查询方式

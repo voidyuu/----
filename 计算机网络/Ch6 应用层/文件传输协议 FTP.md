@@ -1,14 +1,3 @@
----
-tags:
-  - computerscience
-aliases:
-  - FTP
-  - 文件传输协议
-chapter: Ch6 应用层
-subject: "[[计算机网络]]"
-category: "[[📖Notes]]"
----
-
 FTP 是因特网上使用得最广泛的**文件传输协议**。FTP 提供交互式的访问，允许客户指明文件的类型与格式，并允许文件具有存取权限。
 
 FTP 基于 [[TCP]]，使用 21 端口
